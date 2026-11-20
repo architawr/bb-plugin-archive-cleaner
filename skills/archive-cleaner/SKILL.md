@@ -2,4 +2,4 @@
 name: archive-cleaner
 description: Inspect archived thread retention and cleanup results.
 ---
-Run bb archive-cleaner preview for selected projects and bb archive-cleaner status for policy and the latest daily run. Configure projects (comma-separated project IDs), days (positive integer), and enabled in BB plugin settings. Daily at 03:15 server time. Parents with dependents are reconsidered the next day. Deletion requests use BB lifecycle cleanup. Storage and environment completion require separate verification. Project attachments may survive deletion.
+Run bb archive-cleaner preview for selected projects and bb archive-cleaner status for policy and the latest daily run. In Archived Threads Cleaner settings select projects by name or choose all current and future projects, then save the selection. Configure retention days and automatic cleanup separately. Daily at 03:15 server time. Parents with dependents are reconsidered the next day. Deletion requests use BB lifecycle cleanup. Storage and environment completion require separate verification. Project attachments may survive deletion.

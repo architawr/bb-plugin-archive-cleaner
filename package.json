@@ -1,18 +1,19 @@
 {
   "name": "bb-plugin-archive-cleaner",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "engines": {
     "bb": ">=0.50",
     "bbPluginSdk": ">=0.6.157"
   },
   "bb": {
-    "name": "Archive Cleaner",
+    "name": "Archived Threads Cleaner",
     "description": "Daily retention for archived threads in selected projects",
     "branding": {
       "icon": "Archive"
     },
-    "server": "./server.ts"
+    "server": "./server.ts",
+    "app": "./app.tsx"
   },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.4.1",
